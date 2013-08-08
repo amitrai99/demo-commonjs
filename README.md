@@ -62,7 +62,7 @@ exports.bar = bar;
 ```
 
 However, *constructors* cannot be exported using `exports` directly.
-
+We need to use the `module.exports` to be able to export constructors.
 ```js
 function bar() {}
 
